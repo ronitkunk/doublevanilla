@@ -42,7 +42,9 @@ L(w, b; X, Y) = \frac{1}{4n}\sum_{i=1}^{\lfloor n/2 \rfloor}(wX_i+b-Y_i)^2-\frac
 ```
 Consequently, the new gradients are
 ```math
-L_w(w, b; X, Y) = \frac{1}{2n}\sum_{i=1}^{\lfloor n/2 \rfloor}X_i(wX_i+b-Y_i)-\frac{1}{2n}\sum_{i=\lfloor n/2 \rfloor +1}^{n}X_i(wX_i+b-Y_i) \\
+L_w(w, b; X, Y) = \frac{1}{2n}\sum_{i=1}^{\lfloor n/2 \rfloor}X_i(wX_i+b-Y_i)-\frac{1}{2n}\sum_{i=\lfloor n/2 \rfloor +1}^{n}X_i(wX_i+b-Y_i)
+```
+```math
 L_b(w, b; X, Y) = \frac{1}{2n}\sum_{i=1}^{\lfloor n/2 \rfloor}(wX_i+b-Y_i)-\frac{1}{2n}\sum_{i=\lfloor n/2 \rfloor +1}^{n}(wX_i+b-Y_i)
 ```
 * This can be implemented by un-commenting lines in `loss.py` labelled "# Saddle" and commenting out those labelled "# MSE"
