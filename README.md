@@ -40,7 +40,7 @@ python driver.py [ARGS]
 ```math
 L(w, b; X, Y) = \frac{1}{4n}\sum_{i=1}^{\lfloor n/2 \rfloor}(wX_i+b-Y_i)^2-\frac{1}{4n}\sum_{i=\lfloor n/2 \rfloor +1}^{n}(wX_i+b-Y_i)^2
 ```
-Consequently, the new gradients are
+Consequently, the new derivatives are
 ```math
 L_w(w, b; X, Y) = \frac{1}{2n}\sum_{i=1}^{\lfloor n/2 \rfloor}X_i(wX_i+b-Y_i)-\frac{1}{2n}\sum_{i=\lfloor n/2 \rfloor +1}^{n}X_i(wX_i+b-Y_i)
 ```
