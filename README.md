@@ -6,7 +6,7 @@ Visualise vanilla gradient descent in vanilla Minecraft.
 ![DoubleVanilla banner](data/banner.png "DoubleVanilla Banner")
 
 ## Description
-Performs linear regression on one-dimensional data by optimising MSE loss using full-batch, fixed-LR, momentum-less gradient descent, then plot the loss landscape on a square region in a Minecraft world, and watch the path of optimisation.
+Perform linear regression on one-dimensional data by optimising MSE loss using full-batch, fixed-LR, momentum-less gradient descent, then plot the loss landscape on a square region in a Minecraft world, and watch the path of optimisation.
 
 ## Instructions
 * Clone this repository:
