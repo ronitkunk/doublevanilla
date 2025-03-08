@@ -26,7 +26,7 @@ if __name__ == "__main__":
     min_typing_speed = args.min_typing_speed
     delay = args.delay
     counter_max = args.countdown
-    wandb_init = tuple(args.centre)
+    wandb_init = tuple(args.wandb_init)
     landscape_block = args.landscape_block
     optimiser_block = args.optimiser_block
 
